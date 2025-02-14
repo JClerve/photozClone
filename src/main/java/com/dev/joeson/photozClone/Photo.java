@@ -4,6 +4,12 @@ public class Photo {
     private String ID;
     private String fileName;
 
+
+    public Photo(String ID, String fileName) {
+        this.ID = ID;
+        this.fileName = fileName;
+    }
+
     public String getID() {
         return ID;
     }
